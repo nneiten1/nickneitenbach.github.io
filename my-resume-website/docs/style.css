@@ -1,0 +1,47 @@
+/* General styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;  /* Light gray background */
+}
+
+/* Styling for the header (your name and title) */
+header {
+    background-color: #4CAF50;  /* Green background */
+    color: white;  /* White text */
+    text-align: center;  /* Center the text */
+    padding: 20px 0;  /* Padding on top and bottom */
+}
+
+/* Style for section titles (e.g. "About Me", "Education") */
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Section styling */
+section {
+    padding: 20px;  /* Padding inside the section */
+    margin: 10px;  /* Margin outside the section */
+    background-color: white;  /* White background for each section */
+    border-radius: 5px;  /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);  /* Soft shadow effect */
+}
+
+/* Remove bullet points from list */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Style links (email) */
+a {
+    color: #4CAF50;  /* Green link */
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline;
+}

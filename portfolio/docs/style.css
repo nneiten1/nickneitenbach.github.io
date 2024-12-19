@@ -1,0 +1,23 @@
+body{
+    font-family: cursive;
+    padding: 20px;
+    background-image: url("images/e59c829455bd9cdc12930cb72c7253f3.jpg");
+}
+
+.portfolio{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    max-width: 500px;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: lightslategray;
+}
+p{
+    font-size: 25px;
+    margin-top: 2px;
+}

@@ -23,11 +23,11 @@ body{
 
 
 h1{
-    font-family: 'Georgia', serif;
+    font-family: 'Railway', sans-serif;
     font-size: 60px;
-    margin-top: -425px;
+    margin-top: 10px;
     margin-bottom: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .about{

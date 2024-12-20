@@ -2,6 +2,8 @@ body{
     font-family: cursive;
     padding: 25px;
     background-image: url("images/cool-background.png");
+    height: 100vh;
+    overflow: hidden;
 }
 
 .portfolio {
@@ -21,21 +23,42 @@ body{
 
 
 h1{
+    font-family: 'Georgia', serif;
     font-size: 60px;
-    margin-top: 5px;
+    margin-top: -425px;
     margin-bottom: 5px;
-    color: rgb(2, 41, 80);
+    color: rgb(0, 0, 0);
 }
 
-pAbout{
-    padding: 15px;
-    font-size: 5px;
+about{
+    font-family: 'Georgia', serif;
+    padding: 5px;
+    font-size: 100px;
     margin-top: 5px;
     margin-bottom: 15px;
     color: lightslategray;
 }
+h2{
+    padding: 0px;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Georgia', serif;
+}
+
+github{
+    font-family: 'Georgia', serif;
+    margin-top: 100px;
+}
+
+h3{
+    display: inline-block;
+    font-family: 'Georgia', serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
 
 p{
     font-size: 25px;
-    margin-top: 2px;
+    margin-top: 5px;
 }

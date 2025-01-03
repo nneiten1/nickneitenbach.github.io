@@ -1,7 +1,7 @@
 body{
     font-family: cursive;
     padding: 25px;
-    background-image: url("images/image2.jpg");
+    background-image: url("images/image4.jpg");
     height: 100vh;
     overflow: hidden;
 }
@@ -13,7 +13,7 @@ body{
     margin: auto; 
     padding: 20px; 
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(235, 225, 225, 0.8); 
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
     display: flex; 

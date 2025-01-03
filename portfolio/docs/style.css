@@ -23,7 +23,7 @@ body{
 
 
 h1{
-    font-family: 'Railway', sans-serif;
+    font-family: 'Candara';
     font-size: 60px;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -70,4 +70,11 @@ h3{
 p{
     font-size: 25px;
     margin-top: 5px;
+}
+.h2{
+    padding: 0px;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Georgia', serif;
 }

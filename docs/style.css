@@ -10,6 +10,7 @@ body {
     align-items: center; 
 }
 
+/*
 .portfolio {
     width: calc(100% - 30px);
     max-width: 1200px;
@@ -23,13 +24,14 @@ body {
     flex-direction: column; 
     justify-content: center; 
 }
+*/
 
 h1{
     font-family: 'Georgia', serif;
     font-size: 50px;
     margin-top: 10px;
     margin-bottom: 5px;
-    color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
 }
 
 .about{
@@ -38,7 +40,7 @@ h1{
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 h2{
     padding: 0px;
@@ -46,6 +48,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Georgia', serif;
+    color: white;
 }
 
 .h2{
@@ -54,6 +57,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Georgia', serif;
+    color: white;
 }
 
 .description{
@@ -62,12 +66,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 30px;
-}
-
-.projects{
-    margin-top: 5px;
-    font-family: 'Georgia', serif;
-    font-size: 20px;
+    color: white;
 }
 
 h3{
@@ -80,32 +79,4 @@ h3{
 p{
     font-size: 25px;
     margin-top: 5px;
-}
-
-
-
-@media (max-width: 768px) {
-    .portfolio {
-        padding: 10px;
-        flex-direction: column;
-    }
-
-    h1 {
-        font-size: 25px;
-    }
-
-    .about,
-    .description,
-    .projects {
-        font-size: 16px;
-    }
-
-    h2, .h2 {
-        font-size: 12px;
-        margin: 0 auto;
-    }
-
-    p {
-        font-size: 18px;
-    }
 }

@@ -1,25 +1,33 @@
+
+
+@font-face {
+    font-family: Website;
+    src: url("./fonts/DMCAPS.TTF");
+}
+
+
 body {
     background-image: url("images/image2.jpg");
     background-size: cover;
+    font-family: 'Website', sans-serif;
 }
 
 
 /* Hi im nick */
 h1{
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Website', sans-serif;
     font-size: 50px;
-    color: rgb(149, 176, 235);
-    padding-left: 400px;
-    padding-top: 100px;
+    color: rgb(198, 198, 206);
+    padding-left: 600px;
+    padding-top: 10px;
 }
 
 /* undergrad cs student graduating in 2025 */
 .underHi{
     font-family: 'Helvetica', sans-serif;
-    font-size: 50px;
-    color: rgb(149, 176, 235);
-    padding-left: 400px;
-    padding-top: 100px;
+    font-size: 30px;
+    color: rgb(198, 198, 206);
+    padding-left: 600px;
 }
 
 /* about me section */
@@ -29,7 +37,7 @@ h1{
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(198, 198, 206);
 }
 h2{
     padding: 0px;
@@ -37,7 +45,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Helvetica', sans-serif;
-    color: white;
+    color: rgb(198, 198, 206);
 }
 
 .h2{
@@ -46,7 +54,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Helvetica', sans-serif;
-    color: white;
+    color: rgb(198, 198, 206);
 }
 
 .description{
@@ -55,11 +63,12 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 30px;
-    color: white;
+    color: rgb(198, 198, 206);
 }
 
 h3{
     font-family: 'Helvetica', sans-serif;
     font-size: 25px;
     margin-top: 50px;
+    color: rgb(198, 198, 206);
 }

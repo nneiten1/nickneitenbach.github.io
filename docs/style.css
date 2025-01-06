@@ -24,7 +24,7 @@ h1{
 
 /* undergrad cs student graduating in 2025 */
 .underHi{
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Website', sans-serif;
     font-size: 23px;
     color: rgb(198, 198, 206);
     padding-left: 600px;
@@ -32,7 +32,7 @@ h1{
 
 /* about me section */
 .about{
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Website', sans-serif;
     padding-left: 900px;
     font-size: 25px;
     color: rgb(198, 198, 206);
@@ -40,33 +40,37 @@ h1{
 
 /* about me decription*/
 h2{
-    padding-left: 550px;
+    max-width: 700px;
+    margin: 0 auto;
     font-size: 15px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Website', sans-serif;
     color: rgb(198, 198, 206);
+    white-space: normal;
+    line-height: 1.5
 }
 
 .h2{
-    padding: 0px;
+    max-width: 700px;
+    margin: 0 auto;
     font-size: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
     font-family: 'Helvetica', sans-serif;
     color: rgb(198, 198, 206);
+    white-space: normal;
+    line-height: 1.5
 }
 
 /* "projects" */
 h3{
     font-family: 'Helvetica', sans-serif;
     font-size: 25px;
-    padding-left: 550px;
+    padding-left: 500px;
     color: rgb(198, 198, 206);
 }
 
 .project{
     font-family: 'Helvetica', sans-serif;
     font-size: 25px;
-    padding-left: 550px;
+    padding-left: 500px;
     color: rgb(198, 198, 206);
 }
 
@@ -74,7 +78,7 @@ h3{
 .description{
     font-size: 15px;
     font-family: 'Helvetica', sans-serif;
-    padding-left: 550px;
+    padding-left: 500px;
     white-space: normal;
     color: rgb(198, 198, 206);
 }

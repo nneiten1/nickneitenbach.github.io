@@ -40,7 +40,7 @@ h1{
 
 /* about me decription*/
 h2{
-    padding-left: 25px;
+    padding-left: 550px;
     font-size: 15px;
     font-family: 'Helvetica', sans-serif;
     color: rgb(198, 198, 206);
@@ -63,10 +63,11 @@ h3{
     color: rgb(198, 198, 206);
 }
 
-project{
+.project{
     font-family: 'Helvetica', sans-serif;
     font-size: 25px;
     padding-left: 550px;
+    color: rgb(198, 198, 206);
 }
 
 /* project descriptions */

@@ -30,6 +30,13 @@ h1{
 }
 
 
+.information{
+    font-family: 'Website', sans-serif;
+    font-size: 16px;
+    color: rgba(198, 198, 206);
+    text-align: center;
+}
+
 /* undergrad cs student graduating in 2025 
 .underHi{
     font-family: 'Website', sans-serif;

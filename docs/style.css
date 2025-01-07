@@ -49,6 +49,10 @@ h1{
     margin: 20px 0;
 }
 
+.about a{
+    color: rgba(198, 198, 206)
+}
+
 /* about me decription*/
 h2{
     max-width: 900px;

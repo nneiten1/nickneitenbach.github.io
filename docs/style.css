@@ -100,10 +100,12 @@ h3{
 }
 
 .github{
-    font-size: 20px;
-    font-family: 'Helvetica', sans-serif;
     max-width: 900px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: 'Website', sans-serif;
     color: rgb(198, 198, 206);
-    text-align: left;
-    margin-top: 10px auto;
+    text-align: justify;
+    text-align: center;
+    margin-top: 20px;
 }

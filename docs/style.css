@@ -109,3 +109,10 @@ h3{
     text-align: center;
     margin-top: 20px;
 }
+
+.stickyImage{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 300px;
+}

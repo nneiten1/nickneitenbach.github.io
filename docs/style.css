@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: Website;
-    src: url("./fonts/DMCAPS.TTF");
+    src: url("../fonts/DMCAPS.TTF");
 }
 
 
 body {
     background-image: url("images/image2.jpg");
     background-size: cover;
-    font-family: 'Website', sans-serif;
+    font-family: Website, sans-serif;
 }
 
 main{
@@ -22,33 +22,31 @@ main{
 
 /* Hi im nick */
 h1{
-    font-family: 'Website', sans-serif;
+    font-family: Website, sans-serif;
     font-size: 40px;
-    color: rgb(198, 198, 206);
+    color: rgb(187, 187, 238);
     text-align: center;
-    margin: 10px 0;
+    margin: 40px 0;
 }
 
+.intro{
+    font-family: Website, sans-serif;
+    font-size: 20px;
+    color: rgb(187, 187, 238);
+    text-align: center;
+
+}
 
 .information{
-    font-family: 'Website', sans-serif;
+    font-family: Website, sans-serif;
     font-size: 16px;
     color: rgba(198, 198, 206);
     text-align: center;
 }
 
-/* undergrad cs student graduating in 2025 
-.underHi{
-    font-family: 'Website', sans-serif;
-    font-size: 23px;
-    color: rgb(198, 198, 206);
-    text-align: center;
-}
-*/
-
 /* about me section */
 .about{
-    font-family: 'Website', sans-serif;
+    font-family: Website, sans-serif;
     text-align: center;
     margin: 20px 0;
     font-size: 25px;
@@ -65,7 +63,7 @@ h2{
     max-width: 900px;
     margin: 0 auto;
     font-size: 15px;
-    font-family: 'Website', sans-serif;
+    font-family: Website, sans-serif;
     color: rgb(198, 198, 206);
     line-height: 1.5;
     text-align: justify;
@@ -75,7 +73,7 @@ h2{
     max-width: 900px;
     margin: 0 auto;
     font-size: 15px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: Website, sans-serif;
     color: rgb(198, 198, 206);
     white-space: normal;
     line-height: 1.5
@@ -83,7 +81,7 @@ h2{
 
 /* "projects" */
 h3{
-    font-family: 'Helvetica', sans-serif;
+    font-family: Website, sans-serif;
     font-size: 25px;
     color: rgb(162, 162, 238);
     text-align: center;
@@ -91,7 +89,7 @@ h3{
 }
 
 .project{
-    font-family: 'Helvetica', sans-serif;
+    font-family: Website, sans-serif;
     font-size: 25px;
     max-width: 900px;
     color: rgb(162, 162, 238);
@@ -102,7 +100,7 @@ h3{
 /* project descriptions */
 .description{
     font-size: 15px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: Website, sans-serif;
     max-width: 900px;
     white-space: normal;
     color: rgb(198, 198, 206);
@@ -114,7 +112,7 @@ h3{
     max-width: 900px;
     margin: 0 auto;
     font-size: 25px;
-    font-family: 'Website', sans-serif;
+    font-family: Website, sans-serif;
     color: rgb(198, 198, 206);
     text-align: center;
     margin-top: 20px;
@@ -128,7 +126,7 @@ h3{
     text-align: center;
 }
 
-body, ul{
+ul{
     margin: 0;
     padding: 0;
 }
@@ -147,7 +145,8 @@ body, ul{
 }
 
 .nav-item a{
-    font-size: 16px;
+    color: rgb(198, 198, 206);
+    font-size: 20px;
+    font-family: Website, sans-serif;
     padding: 10px 15px;
-    transition: background-color 0.3s;
 }

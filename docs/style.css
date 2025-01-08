@@ -143,11 +143,10 @@ body, ul{
 }
 
 .nav-item{
-    margin: 0 15px;
+    display: inline;
 }
 
 .nav-item a{
-    color: white;
     font-size: 16px;
     padding: 10px 15px;
     transition: background-color 0.3s;

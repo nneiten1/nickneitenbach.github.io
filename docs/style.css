@@ -12,19 +12,13 @@ body {
     font-family: Website, sans-serif;
 }
 
-main{
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1000px;
-    border-radius: 10px;
-}
+
 
 /* Hi im nick */
 h1{
     font-family: Website, sans-serif;
     font-size: 40px;
-    color: rgb(187, 187, 238);
+    color: rgb(198, 198, 206);
     text-align: center;
     margin: 40px 0;
 }
@@ -32,7 +26,7 @@ h1{
 .intro{
     font-family: Website, sans-serif;
     font-size: 20px;
-    color: rgb(187, 187, 238);
+    color: rgb(198, 198, 206);
     text-align: center;
 
 }
@@ -40,7 +34,7 @@ h1{
 .information{
     font-family: Website, sans-serif;
     font-size: 16px;
-    color: rgba(198, 198, 206);
+    color: rgb(198, 198, 206);
     text-align: center;
 }
 

@@ -89,7 +89,7 @@ h3{
     color: rgb(162, 162, 238);
     text-align: center;
     margin: 20px auto;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* project descriptions */
@@ -116,7 +116,7 @@ h3{
 .projectImages{
     display: block;
     margin: 20px auto;
-    width: 185px;
+    width: 160px;
     height: auto;
     text-align: center;
 }
@@ -148,4 +148,20 @@ ul{
 
 a:visited{
     color:rgb(198, 198, 206);
+}
+
+.expandable{
+    width:160px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.expandable.expanded{
+    transform: scale(5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%) scale(5);
 }

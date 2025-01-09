@@ -89,6 +89,7 @@ h3{
     color: rgb(162, 162, 238);
     text-align: center;
     margin: 20px auto;
+    padding-top: 20px;
 }
 
 /* project descriptions */
@@ -115,7 +116,7 @@ h3{
 .projectImages{
     display: block;
     margin: 20px auto;
-    width: 100px;
+    width: 185px;
     height: auto;
     text-align: center;
 }
@@ -143,4 +144,8 @@ ul{
     font-size: 20px;
     font-family: Website, sans-serif;
     padding: 10px 15px;
+}
+
+a:visited{
+    color:rgb(198, 198, 206);
 }

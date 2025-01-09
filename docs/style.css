@@ -12,8 +12,6 @@ body {
     font-family: Website, sans-serif;
 }
 
-
-
 /* Hi im nick */
 h1{
     font-family: Website, sans-serif;
@@ -27,8 +25,9 @@ h1{
     font-family: Website, sans-serif;
     font-size: 20px;
     color: rgb(198, 198, 206);
+    max-width: 600px;
     text-align: center;
-
+    margin: 0 auto;
 }
 
 .information{

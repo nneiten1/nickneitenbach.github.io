@@ -150,6 +150,8 @@ a:visited{
     color:rgb(198, 198, 206);
 }
 
+
+/* EXPANDING PROJECT IMAGES */
 .expandable{
     width:160px;
     height: auto;
@@ -167,4 +169,18 @@ a:visited{
     transform: translate(-50% -50%) scale(5);
     max-width: 90%;
     max-height: 90%;
+}
+
+.contact{
+    font-size: 23px;
+    color: rgb(198, 198, 206);
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 40px 0;
+    padding-top: 175px;
+}
+
+.contactSpacing{
+    padding-top: 10px;
 }

@@ -42,15 +42,13 @@ h1{
 .about{
     font-family: Website, sans-serif;
     text-align: center;
-    margin: 20px 0;
     font-size: 25px;
     color: rgb(198, 198, 206);
-    margin: 20px 0;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.about a{
-    color: rgba(198, 198, 206)
-}
 
 /* about me decription*/
 h2{
@@ -60,7 +58,7 @@ h2{
     font-family: Website, sans-serif;
     color: rgb(198, 198, 206);
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
 }
 
 .h2{
@@ -183,4 +181,28 @@ a:visited{
 
 .contactSpacing{
     padding-top: 10px;
+}
+
+.pastCourses{
+    font-family: Website, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(198, 198, 206);
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+.courseList{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(198, 198, 206);
+    justify-content: center;
+    max-width: 675px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.courseSpacing{
+    padding-top: 10px;;
 }

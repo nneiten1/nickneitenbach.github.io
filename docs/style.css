@@ -154,14 +154,17 @@ a:visited{
     width:160px;
     height: auto;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, z-index 0.3s ease;;
     position: relative;
 }
 
 .expandable.expanded{
-    transform: scale(5);
+    transform: scale(6.5) translate(-50%, -50%);
     position: fixed;
     top: 50%;
     left: 50%;
+    z-index: 1000;
     transform: translate(-50% -50%) scale(5);
+    max-width: 90%;
+    max-height: 90%;
 }

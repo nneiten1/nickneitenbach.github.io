@@ -90,6 +90,16 @@ h3{
     padding-top: 10px;
 }
 
+.project a{
+    margin-right: 10px;
+}
+
+.download{
+    font-size: 15px;
+    color: rgb(198, 198, 206);
+    display: inline;
+}
+
 /* project descriptions */
 .description{
     font-size: 15px;

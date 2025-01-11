@@ -156,18 +156,21 @@ a:visited{
     cursor: pointer;
     transition: transform 0.3s ease, z-index 0.3s ease;;
     position: relative;
+    object-fit: cover;
 }
 
 .expandable.expanded{
-    transform: scale(6.5) translate(-50%, -50%);
+    transform: translate(-50%, -50%), scale(6.5);
     position: fixed;
     top: 50%;
     left: 50%;
     z-index: 1000;
-    transform: translate(-50% -50%) scale(5);
+    transform: translate(-50%,-50%) scale(6.5);
     max-width: 90%;
     max-height: 90%;
 }
+
+
 
 .contact{
     font-size: 23px;

@@ -12,6 +12,13 @@ body {
     font-family: Website, sans-serif;
 }
 
+
+
+
+
+/* ************ HOME PAGE ************ */
+
+
 /* Hi im nick */
 h1{
     font-family: Website, sans-serif;
@@ -31,12 +38,12 @@ h1{
     margin: 0 auto;
 }
 
-.information{
-    font-family: Website, sans-serif;
-    font-size: 16px;
-    color: rgb(198, 198, 206);
-    text-align: center;
-}
+
+
+
+
+
+/* ************ ABOUT ME PAGE ************ */
 
 /* about me section */
 .about{
@@ -71,14 +78,9 @@ h2{
     line-height: 1.5
 }
 
-/* "projects" */
-h3{
-    font-family: Website, sans-serif;
-    font-size: 25px;
-    color: rgb(198, 198, 206);
-    text-align: center;
-    margin: 30px 0 10px 0;
-}
+
+
+/* ************ PROJECTS PAGE ************ */
 
 .project{
     font-family: Website, sans-serif;

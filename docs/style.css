@@ -53,19 +53,19 @@ h1{
 .about{
     font-family: Website, sans-serif;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.375rem;
     color: rgb(198, 198, 206);
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 
 /* about me decription*/
 h2{
-    max-width: 900px;
+    max-width: 56.25rem;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: Website, sans-serif;
     color: rgb(198, 198, 206);
     line-height: 1.5;
@@ -73,9 +73,9 @@ h2{
 }
 
 .h2{
-    max-width: 675px;
+    max-width: 42.1875rem;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-family: Website, sans-serif;
     color: rgb(198, 198, 206);
     white-space: normal;
@@ -88,29 +88,29 @@ h2{
 
 .project{
     font-family: Website, sans-serif;
-    font-size: 25px;
-    max-width: 900px;
+    font-size: 1.5625rem;
+    max-width: 56.25rem;
     color: rgb(198, 198, 206);
     text-align: center;
-    margin: 20px auto;
-    padding-top: 10px;
+    margin: 1.25rem auto;
+    padding-top: 0.625rem;
 }
 
 .project a{
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .download{
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: rgb(198, 198, 206);
     display: inline;
 }
 
 /* project descriptions */
 .description{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-family: Website, sans-serif;
-    max-width: 900px;
+    max-width: 56.25rem;
     white-space: normal;
     color: rgb(198, 198, 206);
     text-align: left;
@@ -118,19 +118,19 @@ h2{
 }
 
 .github{
-    max-width: 900px;
+    max-width: 56.25rem;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-family: Website, sans-serif;
     color: rgb(198, 198, 206);
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .projectImages{
     display: block;
-    margin: 20px auto;
-    width: 160px;
+    margin: 1.25rem auto;
+    width: 10rem;
     height: auto;
     text-align: center;
 }
@@ -141,7 +141,7 @@ ul{
 }
 
 .navbar{
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
 }
 
 .nav-list{
@@ -155,9 +155,9 @@ ul{
 
 .nav-item a{
     color: rgb(198, 198, 206);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: Website, sans-serif;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
 }
 
 a:visited{
@@ -167,7 +167,7 @@ a:visited{
 
 /* EXPANDING PROJECT IMAGES */
 .expandable{
-    width:160px;
+    width: 10rem;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease, z-index 0.3s ease;;
@@ -189,39 +189,39 @@ a:visited{
 
 
 .contact{
-    font-size: 23px;
+    font-size: 1.4375rem;
     color: rgb(198, 198, 206);
     text-align: center;
     justify-content: center;
     list-style-type: none;
-    margin: 40px 0;
-    padding-top: 175px;
+    margin: 2.5rem 0;
+    padding-top: 10.9375rem;
 }
 
 .contactSpacing{
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .pastCourses{
     font-family: Website, sans-serif;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.375rem;
     color: rgb(198, 198, 206);
-    margin: 20px 0;
-    padding-top: 20px;
+    margin: 1.25rem 0;
+    padding-top: 1.25rem;
 }
 
 .courseList{
-    padding-top: 8px;
+    padding-top: 0.5rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgb(198, 198, 206);
     justify-content: center;
-    max-width: 675px;
+    max-width: 42.1875rem;
     margin: 0 auto;
     list-style-type: none;
 }
 
 .courseSpacing{
-    padding-top: 10px;;
+    padding-top: 0.625rem;
 }
